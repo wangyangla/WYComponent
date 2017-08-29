@@ -8,18 +8,18 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "TKit"
+  s.name         = "WYModuleAndView"
   s.version      = "1.0.0"
   s.summary      = "The package of useful tools, include categories and classes"
-  s.homepage     = "http://www.brighttj.com"
+  s.homepage     = "https://github.com/wangyangla/WYComponent/tree/1.0.0"
   s.license      = "MIT"
-  s.authors      = { 'tangjr' => 'tangjr.work@gmail.com'}
-  s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/saitjr/TKit.git", :tag => s.version }
-  s.source_files = 'TKit', 'TKit/**/*.{h,m}'
+  s.authors      = { ‘wangyang’ => ‘1807919390@qq.com’}
+  s.platform     = :ios, “8.0”
+  s.source       = { :git => "https://github.com/wangyangla/WYComponent.git", :tag => “1.0.0” }
+  s.source_files = 'WYComponent/*.{h,m}'
   s.requires_arc = true
-s.dependency "AFNetworking”#第三方库
+s.dependency "AFNetworking”
 # s.framework  = "SomeFramework”#引入框架
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+   s.frameworks = 'Foundation', 'UIKit'
 
 end
